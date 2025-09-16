@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce9a87a06507bf4f95f1c21261492e5, type: 3}
+  m_Name: HR_wolf_SO
+  m_EditorClassIdentifier: Assembly-CSharp::HR_wolf_SO
+  idleSprite: {fileID: -6965626667832804374, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
+  howlingSprite: {fileID: -5450856831409009368, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
+  howlClip: {fileID: 0}
+  howlDuration: 1

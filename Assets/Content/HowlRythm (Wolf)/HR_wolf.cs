@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
+using System.Collections;
 
 public class HR_wolf : MonoBehaviour
 {
@@ -8,17 +10,18 @@ public class HR_wolf : MonoBehaviour
     private HR_Input input;
     private AudioSource audioSource;
 
-    [Header("Sprites")]
-    [SerializeField] private Sprite idleSprite;
-    [SerializeField] private Sprite howlingSprite;
+    [Header("Settings")]
+    [SerializeField] private HR_wolf_SO settings;
+    [SerializeField] private float howlDuration = 1.0f;
 
-    [Header("Audio")]
-    [SerializeField] private AudioClip howlClip;
+    [Header("Events")]
+    public UnityEvent onWolfHowl;
+    public UnityEvent onWolfFail;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        sr.sprite = idleSprite;
+        sr.sprite = settings.idleSprite;
         gm = HR_GameManager.Instance;
         audioSource = GetComponent<AudioSource>();
     }
@@ -38,6 +41,7 @@ public class HR_wolf : MonoBehaviour
 
     private void OnHowl(InputAction.CallbackContext context)
     {
+        if (!gm.PlayerTurn) return;
         Debug.Log("OnTap called");
 
         if (Camera.main == null) Debug.LogError("Camera.main is NULL! Tag your camera as MainCamera.");
@@ -63,23 +67,18 @@ public class HR_wolf : MonoBehaviour
 
         if (GetComponent<Collider2D>().OverlapPoint(tapPos))
         {
-            StartCoroutine(DoHowl(1.0f));
+            StartCoroutine(DoHowl());
             gm.RegisterWolfTap(this);
         }
     }
 
-    public System.Collections.IEnumerator DoHowl(float duration)
+    public IEnumerator DoHowl()
     {
-        sr.sprite = howlingSprite;
-        audioSource.PlayOneShot(howlClip);
-        yield return new WaitForSeconds(duration);
-        sr.sprite = idleSprite;
-        yield return new WaitForSeconds(duration);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        sr.sprite = settings.howlingSprite;
+        audioSource.PlayOneShot(settings.howlClip);
+        onWolfHowl?.Invoke();
+        yield return new WaitForSeconds(settings.howlDuration);
+        sr.sprite = settings.idleSprite;
+        yield return new WaitForSeconds(settings.howlDuration);
     }
 }

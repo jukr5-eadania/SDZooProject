@@ -1,0 +1,6 @@
+:root {
+}
+
+.RoundLabel {
+    font-size: 100px;
+}

@@ -151,9 +151,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f3ed8ccfcdc164da8d9f60090ec1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HR_wolf
-  idleSprite: {fileID: -6965626667832804374, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
-  howlingSprite: {fileID: -5450856831409009368, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
-  howlClip: {fileID: 0}
+  settings: {fileID: 11400000, guid: 60d1b49a87ff3c84895dda18c8ec27fe, type: 2}
+  howlDuration: 1
+  onWolfHowl:
+    m_PersistentCalls:
+      m_Calls: []
+  onWolfFail:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &6236573033724112213
 AudioSource:
   m_ObjectHideFlags: 0
