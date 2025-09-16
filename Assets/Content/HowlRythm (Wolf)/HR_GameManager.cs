@@ -37,8 +37,11 @@ public class HR_GameManager : MonoBehaviour
 
     public void AddStepToSequence()
     {
-        int nextWolf = Random.Range(0, wolves.Count);
-        sequence.Add(nextWolf);
+        if (maxSequenceLength < sequence.Count)
+        {
+            int nextWolf = Random.Range(0, wolves.Count);
+            sequence.Add(nextWolf);
+        }
     }
 
     private System.Collections.IEnumerator PlaySequence()
@@ -67,13 +70,24 @@ public class HR_GameManager : MonoBehaviour
 
             if (currentStep >= sequence.Count)
             {
-                AddStepToSequence();
-                StartCoroutine(PlaySequence());
+                playerTurn = false;
+                StartCoroutine(StartNextRound(true));
             }
         }
         else
         {
             Debug.Log("WRONG");
+            StartCoroutine(StartNextRound(false));
         }
+    }
+
+    private System.Collections.IEnumerator StartNextRound(bool success)
+    {
+        yield return new WaitForSeconds(2.0f);
+        if (success)
+        {
+            AddStepToSequence();
+        }
+        StartCoroutine(PlaySequence());
     }
 }
