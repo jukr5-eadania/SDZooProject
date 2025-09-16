@@ -12,7 +12,13 @@ public class BearFinder : MonoBehaviour
     /// </summary>
     public void OnFound()
     {
-        if (found) return;
+        Debug.Log("The bush was clicked");
+
+        if (found)
+        {
+            Debug.Log("A bear her has already been found");
+            return;
+        }
 
         if(hasBear == true && bearCub != null)
         {
@@ -23,9 +29,4 @@ public class BearFinder : MonoBehaviour
         found = true;
     }
 
-    private void OnMouseDown()
-    {
-        Debug.Log("Busken bliver klikket");
-        OnFound();
-    }
 }
