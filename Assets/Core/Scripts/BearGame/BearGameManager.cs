@@ -22,11 +22,11 @@ public class BearGameManager : MonoBehaviour
     public void BearFound()
     {
         bearsFound++;
-        Debug.Log($"Bjørne fundet: {bearsFound} / {totalBears}");
+        Debug.Log($"Bears found: {bearsFound} / {totalBears}");
 
         if(bearsFound == totalBears)
         {
-            Debug.Log("Du har fundet alle bjørneungerne!");
+            Debug.Log("You found all the bear cubs!");
         }
     }
 }
