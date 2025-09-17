@@ -152,3 +152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BearFinder
   hasBear: 0
   bearCub: {fileID: 0}
+  objectData: {fileID: 11400000, guid: eca2e31e9f5e9114c8d9eb7baa3c728a, type: 2}
+  animator: {fileID: 0}
+  baseController: {fileID: 9100000, guid: 8285f10224d85d440a382e88dbb333af, type: 2}
