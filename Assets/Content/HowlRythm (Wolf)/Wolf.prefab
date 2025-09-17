@@ -151,8 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f3ed8ccfcdc164da8d9f60090ec1a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HR_wolf
-  settings: {fileID: 11400000, guid: 60d1b49a87ff3c84895dda18c8ec27fe, type: 2}
-  howlDuration: 1
+  settings: {fileID: 0}
   onWolfHowl:
     m_PersistentCalls:
       m_Calls: []

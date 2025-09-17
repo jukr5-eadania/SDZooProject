@@ -6,7 +6,6 @@ public class HR_GameManager : MonoBehaviour
     public static HR_GameManager Instance { get; private set; }
 
     [Header("Game Settings")]
-    [SerializeField] private float timeBetweenHowl = 2.0f;
     [SerializeField] private float timeBeforeNextRound = 2.0f;
     [SerializeField] private int maxSequenceLength = 5;
 
@@ -30,12 +29,12 @@ public class HR_GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartGame();
+
     }
 
     public void StartGame()
     {
-        UpdateUI();
+        UpdateRoundUI();
         sequence.Clear();
         AddStepToSequence();
         StartCoroutine(PlaySequence());
@@ -53,6 +52,9 @@ public class HR_GameManager : MonoBehaviour
     private System.Collections.IEnumerator PlaySequence()
     {
         playerTurn = false;
+        UpdateTurnUI(false);
+
+        yield return new WaitForSeconds(timeBeforeNextRound);
 
         for (int i = 0; i < sequence.Count; i++)
         {
@@ -61,6 +63,7 @@ public class HR_GameManager : MonoBehaviour
         }
 
         playerTurn = true;
+        UpdateTurnUI(true);
         currentStep = 0;
     }
 
@@ -76,7 +79,6 @@ public class HR_GameManager : MonoBehaviour
 
             if (currentStep >= sequence.Count)
             {
-                playerTurn = false;
                 StartCoroutine(StartNextRound(true));
             }
         }
@@ -90,18 +92,28 @@ public class HR_GameManager : MonoBehaviour
 
     private System.Collections.IEnumerator StartNextRound(bool success)
     {
-        yield return new WaitForSeconds(timeBeforeNextRound);
         if (success)
         {
             AddStepToSequence();
             currentRound++;
         }
-        UpdateUI();
+        UpdateRoundUI();
         StartCoroutine(PlaySequence());
+
+        yield return null;
     }
 
-    private void UpdateUI()
+    private void UpdateRoundUI()
     {
         uiScript.UpdateRound(currentRound, maxSequenceLength);
+    }
+
+    private void UpdateTurnUI(bool playerTurn)
+    {
+        if (playerTurn) { uiScript.UpdateTurn(true); }
+        else
+        {
+            uiScript.UpdateTurn(false);
+        }
     }
 }

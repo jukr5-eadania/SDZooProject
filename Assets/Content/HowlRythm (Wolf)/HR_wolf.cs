@@ -12,7 +12,6 @@ public class HR_wolf : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private HR_wolf_SO settings;
-    [SerializeField] private float howlDuration = 1.0f;
 
     [Header("Events")]
     public UnityEvent onWolfHowl;
@@ -79,6 +78,6 @@ public class HR_wolf : MonoBehaviour
         onWolfHowl?.Invoke();
         yield return new WaitForSeconds(settings.howlDuration);
         sr.sprite = settings.idleSprite;
-        yield return new WaitForSeconds(settings.howlDuration);
+        yield return new WaitForSeconds(settings.timeBetweenHowl);
     }
 }

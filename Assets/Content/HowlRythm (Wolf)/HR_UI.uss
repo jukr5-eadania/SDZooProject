@@ -1,6 +1,6 @@
 :root {
 }
 
-.RoundLabel {
-    font-size: 100px;
+.Labels {
+    font-size: 75px;
 }

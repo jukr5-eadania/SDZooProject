@@ -16,3 +16,4 @@ MonoBehaviour:
   howlingSprite: {fileID: -5450856831409009368, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
   howlClip: {fileID: 0}
   howlDuration: 1
+  timeBetweenHowl: 2

@@ -12,4 +12,5 @@ public class HR_wolf_SO : ScriptableObject
 
     [Header("Timing")]
     public float howlDuration = 1.0f;
+    public float timeBetweenHowl = 2.0f;
 }
