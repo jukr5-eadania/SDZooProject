@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 280401420351132303}
   - component: {fileID: 6236573033724112213}
   m_Layer: 0
-  m_Name: Wolf
+  m_Name: HR_Wolf_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
