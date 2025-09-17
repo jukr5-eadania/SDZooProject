@@ -5,8 +5,13 @@ public class BearGameManager : MonoBehaviour
     public static BearGameManager Instance { get; private set; }
 
     [SerializeField] private int totalBears = 3;
+    [SerializeField] private BearUIManager uIManager;
 
     private int bearsFound = 0;
+
+    // read-only properties
+    public int BearsFound => bearsFound;
+    public int TotalBears => totalBears;
 
     private void Awake()
     {
@@ -23,6 +28,11 @@ public class BearGameManager : MonoBehaviour
     {
         bearsFound++;
         Debug.Log($"Bears found: {bearsFound} / {totalBears}");
+
+        if(uIManager != null)
+        {
+            uIManager.UpdateScore(bearsFound, totalBears);
+        }
 
         if(bearsFound == totalBears)
         {
