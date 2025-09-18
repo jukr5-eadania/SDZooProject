@@ -95,4 +95,13 @@ public class DragHawk : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                 transform.position.z); 
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Fish")
+        {
+            // Score logic
+
+            Destroy(collision.gameObject);
+        }
+    }
 }
