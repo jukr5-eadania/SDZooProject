@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class Minigame_UI_Script : MonoBehaviour
 {
+    public static Minigame_UI_Script Instance { get; private set; }
+
     [SerializeField] private UIDocument uiDocument;
     [SerializeField] private Minigame_UI_Data data;
     [SerializeField] private MonoBehaviour minigame;
@@ -23,6 +25,13 @@ public class Minigame_UI_Script : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+
         var root = uiDocument.rootVisualElement;
 
         homeButton = root.Q<Button>("HomeButton");
@@ -89,13 +98,8 @@ public class Minigame_UI_Script : MonoBehaviour
         Debug.Log("stuff happened");
     }
 
-    private void ShowVictoryPopup()
+    public void ShowVictoryPopup()
     {
         victoryPopup.style.display = DisplayStyle.Flex;
-    }
-
-    private void HideVictoryPopup()
-    {
-        victoryPopup.style.display = DisplayStyle.None;
     }
 }

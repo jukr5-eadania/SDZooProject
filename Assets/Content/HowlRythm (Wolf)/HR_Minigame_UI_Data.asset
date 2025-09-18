@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95bd0111a30066440b5554bd430243dc, type: 3}
   m_Name: HR_Minigame_UI_Data
   m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Data
-  victorySticker: {fileID: 0}
-  howToPlayText: 
+  victorySticker: {fileID: 1779786409542700816, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
+  howToPlayText: GO WOLVES

@@ -1,7 +1,7 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Content/HowlRythm%20(Wolf)/HR_UI.uss?fileID=7433441132597879392&amp;guid=697db4389f8359a4eac08f4a3077d2bc&amp;type=3#HR_UI" />
     <ui:VisualElement name="HUD" style="flex-grow: 1; width: auto;">
-        <ui:Label name="RoundLabel" text="Round 0 / 5" class="RoundLabel Labels" style="-unity-text-align: upper-center; top: 100px;" />
-        <ui:Label text="Turn" name="TurnLabel" class="Labels" style="-unity-text-align: upper-center; white-space: normal; top: 100px;" />
+        <ui:Label name="RoundLabel" class="RoundLabel Labels" style="-unity-text-align: upper-center; top: 100px;" />
+        <ui:Label name="TurnLabel" class="Labels" style="-unity-text-align: upper-center; white-space: normal; top: 100px;" />
     </ui:VisualElement>
 </ui:UXML>

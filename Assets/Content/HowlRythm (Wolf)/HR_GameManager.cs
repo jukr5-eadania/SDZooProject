@@ -7,7 +7,7 @@ public class HR_GameManager : MonoBehaviour, IMinigame
 
     [Header("Game Settings")]
     [SerializeField] private float timeBeforeNextRound = 2.0f;
-    [SerializeField] private int maxSequenceLength = 5;
+    [SerializeField] private int maxRounds = 5;
 
     [Header("Wolves")]
     [SerializeField] private List<HR_wolf> wolves = new();
@@ -23,13 +23,12 @@ public class HR_GameManager : MonoBehaviour, IMinigame
 
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
         Instance = this;
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
     }
 
     public void StartGame()
@@ -42,7 +41,7 @@ public class HR_GameManager : MonoBehaviour, IMinigame
 
     public void AddStepToSequence()
     {
-        if (maxSequenceLength >= sequence.Count)
+        if (maxRounds >= sequence.Count)
         {
             int nextWolf = Random.Range(0, wolves.Count);
             sequence.Add(nextWolf);
@@ -94,8 +93,14 @@ public class HR_GameManager : MonoBehaviour, IMinigame
     {
         if (success)
         {
-            AddStepToSequence();
             currentRound++;
+            if (currentRound > maxRounds)
+            {
+                Victory();
+                yield break;
+            }
+
+            AddStepToSequence();
         }
         UpdateRoundUI();
         StartCoroutine(PlaySequence());
@@ -105,7 +110,7 @@ public class HR_GameManager : MonoBehaviour, IMinigame
 
     private void UpdateRoundUI()
     {
-        uiScript.UpdateRound(currentRound, maxSequenceLength);
+        uiScript.UpdateRound(currentRound, maxRounds);
     }
 
     private void UpdateTurnUI(bool playerTurn)
@@ -115,5 +120,12 @@ public class HR_GameManager : MonoBehaviour, IMinigame
         {
             uiScript.UpdateTurn(false);
         }
+    }
+
+    private void Victory()
+    {
+        playerTurn = false;
+        Debug.Log("PlayerWins");
+        Minigame_UI_Script.Instance.ShowVictoryPopup();
     }
 }
