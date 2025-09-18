@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class HR_GameManager : MonoBehaviour
+public class HR_GameManager : MonoBehaviour, IMinigame
 {
     public static HR_GameManager Instance { get; private set; }
 

@@ -4,7 +4,6 @@ using UnityEngine;
 public class Minigame_UI_Data : ScriptableObject
 {
     public Sprite victorySticker;
-    [TextArea] public string victoryText;
 
     [TextArea] public string howToPlayText;
 }

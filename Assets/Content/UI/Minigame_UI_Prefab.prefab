@@ -70,3 +70,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Script
   uiDocument: {fileID: 6169682123775157433}
   data: {fileID: 0}
+  minigame: {fileID: 0}

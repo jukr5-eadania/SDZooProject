@@ -1,11 +1,7 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Content/HowlRythm%20(Wolf)/HR_UI.uss?fileID=7433441132597879392&amp;guid=697db4389f8359a4eac08f4a3077d2bc&amp;type=3#HR_UI" />
-    <ui:VisualElement name="HUD" style="flex-grow: 1;">
-        <ui:Label name="RoundLabel" text="Round 0 / 5" class="RoundLabel Labels" style="-unity-text-align: upper-center;" />
-        <ui:Label text="Turn" name="TurnLabel" class="Labels" style="-unity-text-align: upper-center; white-space: normal;" />
-    </ui:VisualElement>
-    <ui:VisualElement name="Overlay" style="flex-grow: 1; position: absolute; height: 1012px; width: 1080px; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgb(255, 255, 255); top: 424px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px; border-bottom-left-radius: 100px;">
-        <ui:Label text="Velkommen til Ulve spillet&#10;I dette spil er der en familie af ulve som hyler i fuldmånen&#10;Når spillet starter er dit mål at huske rækkefølgen som ulvene hyler, og så gentage det efterfølgende&#10;Når det er din tur så trykker du på en ulv for at få den til at hyle.&#10;Der er 5 runder, Held og lykke" name="TutorialText" class="Labels" style="-unity-text-align: upper-center; position: relative; top: 100px; left: auto; align-content: auto; align-self: auto; justify-content: center; align-items: stretch; white-space: normal; font-size: 60px;" />
-        <ui:Button text="Start" name="StartButton" style="top: 150px; align-self: center; font-size: 90px; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;" />
+    <ui:VisualElement name="HUD" style="flex-grow: 1; width: auto;">
+        <ui:Label name="RoundLabel" text="Round 0 / 5" class="RoundLabel Labels" style="-unity-text-align: upper-center; top: 100px;" />
+        <ui:Label text="Turn" name="TurnLabel" class="Labels" style="-unity-text-align: upper-center; white-space: normal; top: 100px;" />
     </ui:VisualElement>
 </ui:UXML>
