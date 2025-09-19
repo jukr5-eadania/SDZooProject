@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: hasBear
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4271626943120270904, guid: 3df556f01db6d86429e5cce30e51685c, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 7207562827413230202}
     - target: {fileID: 7944689736992939431, guid: 3df556f01db6d86429e5cce30e51685c, type: 3}
       propertyPath: m_Size.x
       value: 8
@@ -121,3 +125,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3df556f01db6d86429e5cce30e51685c, type: 3}
+--- !u!95 &7207562827413230202 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -1734305240160695882, guid: 3df556f01db6d86429e5cce30e51685c, type: 3}
+  m_PrefabInstance: {fileID: 281732979361389516}
+  m_PrefabAsset: {fileID: 0}

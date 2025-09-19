@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7944689736992939431}
   - component: {fileID: 3240118996028670047}
   - component: {fileID: 4271626943120270904}
+  - component: {fileID: -1734305240160695882}
   m_Layer: 0
   m_Name: ClickableObjectBase
   m_TagString: Untagged
@@ -155,3 +156,25 @@ MonoBehaviour:
   objectData: {fileID: 11400000, guid: eca2e31e9f5e9114c8d9eb7baa3c728a, type: 2}
   animator: {fileID: 0}
   baseController: {fileID: 9100000, guid: 8285f10224d85d440a382e88dbb333af, type: 2}
+--- !u!95 &-1734305240160695882
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8834994646506143027}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
