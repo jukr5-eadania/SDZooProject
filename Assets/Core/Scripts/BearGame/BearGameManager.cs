@@ -4,7 +4,10 @@ public class BearGameManager : MonoBehaviour
 {
     public static BearGameManager Instance { get; private set; }
 
+    [Header("Bear Tracking")]
+    [Tooltip("Total number of hidden objects")]
     [SerializeField] private int totalBears = 3;
+    [Tooltip("Reference to the UI Manager that updates the score display")]
     [SerializeField] private BearUIManager uIManager;
 
     private int bearsFound = 0;

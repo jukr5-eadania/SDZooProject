@@ -3,11 +3,26 @@ using System.Collections;
 
 public class BearFinder : MonoBehaviour
 {
+    [Header("Settings")]
+    [Tooltip("Set to true if this object is holding a hidden object")]
     [SerializeField] private bool hasBear = false;
+
+    [Tooltip("GameObject that represents the hidden object")]
     [SerializeField] private GameObject bearCub;
+
+    [Header("Object Data")]
+    [Tooltip("Scriptable Object with the animations and sound effects for this object")]
     [SerializeField] private HiddenObjectData_SO objectData;
+
+    [Header("Animation Settings")]
+    [Tooltip("Animator component that controls the animations")]
     [SerializeField] private Animator animator;
+
+    [Tooltip("Base animator controller that gets overridden")]
     [SerializeField] private RuntimeAnimatorController baseController;
+
+    [Header("Sound Effects")]
+    [Tooltip("Audio Source that plays hint- and found-sound effects")]
     [SerializeField] private AudioSource audioSource;
 
     private bool found = false;
