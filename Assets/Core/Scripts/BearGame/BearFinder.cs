@@ -8,6 +8,7 @@ public class BearFinder : MonoBehaviour
     [SerializeField] private HiddenObjectData_SO objectData;
     [SerializeField] private Animator animator;
     [SerializeField] private RuntimeAnimatorController baseController;
+    [SerializeField] private AudioSource audioSource;
 
     private bool found = false;
 
@@ -21,10 +22,9 @@ public class BearFinder : MonoBehaviour
             overrideController["Idle_anim"] = objectData.idleAnimation;
 
             animator.runtimeAnimatorController = overrideController;
-            StartCoroutine(PlayHintLoop());
+            StartCoroutine(PlayHintLoop());            
         }
-        
-        //add sound here
+
     }
 
     private IEnumerator PlayHintLoop()
@@ -32,6 +32,12 @@ public class BearFinder : MonoBehaviour
         while (!found)
         {
             animator.Play("Hint_anim");
+
+            if (objectData.hintSound != null && audioSource != null)
+            {
+                Debug.Log("plays sound: "+ objectData.hintSound.name);
+                audioSource.PlayOneShot(objectData.hintSound);
+            }
 
             // wait to the animation is done
             yield return new WaitForSeconds(objectData.hintDuration);
@@ -58,6 +64,12 @@ public class BearFinder : MonoBehaviour
         if(hasBear == true && bearCub != null)
         {
             bearCub.SetActive(true);
+            
+            if(objectData.foundSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(objectData.foundSound);
+            }
+
             found = true;
             animator.Play("Idle_anim");            
             BearGameManager.Instance.BearFound();

@@ -13,4 +13,5 @@ public class HiddenObjectData_SO : ScriptableObject
 
     [Header("Audio")]
     public AudioClip hintSound;
+    public AudioClip foundSound;
 }
