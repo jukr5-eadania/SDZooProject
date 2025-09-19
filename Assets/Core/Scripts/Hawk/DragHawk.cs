@@ -12,7 +12,9 @@ public class DragHawk : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
     [SerializeField] private State state = State.Idle;
     [SerializeField] private float moveAmount = 1;
-   
+
+    [SerializeField] MonoBehaviour GameManager;
+
     private SpriteRenderer rend;
     private Vector3 offset;
     private float startHeight;
@@ -99,9 +101,9 @@ public class DragHawk : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (collision.gameObject.tag == "Fish")
         {
-            // Score logic
-
             Destroy(collision.gameObject);
+
+            GameManager.SendMessage("IncreaseScore", SendMessageOptions.DontRequireReceiver);
         }
     }
 }

@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Click : MonoBehaviour, IPointerDownHandler
 {
-    [SerializeField] private int sceneIndex;
+    [SerializeField] private string sceneName;
     public void OnPointerDown(PointerEventData eventData)
     {
-        SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }
