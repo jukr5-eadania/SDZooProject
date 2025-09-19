@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: fce2a12677c48714485211f047a1e8cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1779786409542700816
+    second: wolf_gray_full_scaled_10x_pngcrushed_0
+  - first:
+      213: -5265765750594502335
+    second: wolf_gray_full_scaled_10x_pngcrushed_1
+  - first:
+      213: -6779732510981311872
+    second: wolf_gray_full_scaled_10x_pngcrushed_2
+  - first:
+      213: 2813159550741491371
+    second: wolf_gray_full_scaled_10x_pngcrushed_3
+  - first:
+      213: 1278273432308681228
+    second: wolf_gray_full_scaled_10x_pngcrushed_4
+  - first:
+      213: -3119344303288774357
+    second: wolf_gray_full_scaled_10x_pngcrushed_5
+  - first:
+      213: -6965626667832804374
+    second: wolf_gray_full_scaled_10x_pngcrushed_6
+  - first:
+      213: -5450856831409009368
+    second: wolf_gray_full_scaled_10x_pngcrushed_7
+  - first:
+      213: -5954907706979610028
+    second: wolf_gray_full_scaled_10x_pngcrushed_8
+  - first:
+      213: 3072994998887026209
+    second: wolf_gray_full_scaled_10x_pngcrushed_9
+  - first:
+      213: -9165562642923657066
+    second: wolf_gray_full_scaled_10x_pngcrushed_10
+  - first:
+      213: -4134906484821715806
+    second: wolf_gray_full_scaled_10x_pngcrushed_11
+  - first:
+      213: 772226701749097817
+    second: wolf_gray_full_scaled_10x_pngcrushed_12
+  - first:
+      213: -8317162749134374765
+    second: wolf_gray_full_scaled_10x_pngcrushed_13
+  - first:
+      213: -7756195815742067919
+    second: wolf_gray_full_scaled_10x_pngcrushed_14
+  - first:
+      213: -9080962908367734565
+    second: wolf_gray_full_scaled_10x_pngcrushed_15
+  - first:
+      213: -6864405038191333169
+    second: wolf_gray_full_scaled_10x_pngcrushed_16
+  - first:
+      213: 810932164271469516
+    second: wolf_gray_full_scaled_10x_pngcrushed_17
+  - first:
+      213: 5404697553005509904
+    second: wolf_gray_full_scaled_10x_pngcrushed_18
+  - first:
+      213: -3037023296548784607
+    second: wolf_gray_full_scaled_10x_pngcrushed_19
+  - first:
+      213: 7201081041026009899
+    second: wolf_gray_full_scaled_10x_pngcrushed_20
+  - first:
+      213: -3526816545177389953
+    second: wolf_gray_full_scaled_10x_pngcrushed_21
+  - first:
+      213: 1943696312291576377
+    second: wolf_gray_full_scaled_10x_pngcrushed_22
+  - first:
+      213: -5847710731998183188
+    second: wolf_gray_full_scaled_10x_pngcrushed_23
+  - first:
+      213: 2776781558376660876
+    second: wolf_gray_full_scaled_10x_pngcrushed_24
+  - first:
+      213: 8004369787175844228
+    second: wolf_gray_full_scaled_10x_pngcrushed_25
+  - first:
+      213: 3805769835246166994
+    second: wolf_gray_full_scaled_10x_pngcrushed_26
+  - first:
+      213: -7886554908592098545
+    second: wolf_gray_full_scaled_10x_pngcrushed_27
+  - first:
+      213: 6286265441704878215
+    second: wolf_gray_full_scaled_10x_pngcrushed_28
+  - first:
+      213: 8680054025202695535
+    second: wolf_gray_full_scaled_10x_pngcrushed_29
+  - first:
+      213: -4532854750252756622
+    second: wolf_gray_full_scaled_10x_pngcrushed_30
+  - first:
+      213: 7668131546683258075
+    second: wolf_gray_full_scaled_10x_pngcrushed_31
+  - first:
+      213: -1625090894112460929
+    second: wolf_gray_full_scaled_10x_pngcrushed_32
+  - first:
+      213: -8397313600707455483
+    second: wolf_gray_full_scaled_10x_pngcrushed_33
+  - first:
+      213: -8820008514688310800
+    second: wolf_gray_full_scaled_10x_pngcrushed_34
+  - first:
+      213: -6998869318145823098
+    second: wolf_gray_full_scaled_10x_pngcrushed_35
+  - first:
+      213: -4876738241594260250
+    second: wolf_gray_full_scaled_10x_pngcrushed_36
+  - first:
+      213: 3345854714482684785
+    second: wolf_gray_full_scaled_10x_pngcrushed_37
+  - first:
+      213: -4415107373137066491
+    second: wolf_gray_full_scaled_10x_pngcrushed_38
+  - first:
+      213: -2520355620217618602
+    second: wolf_gray_full_scaled_10x_pngcrushed_39
+  - first:
+      213: -7206473122792727349
+    second: wolf_gray_full_scaled_10x_pngcrushed_40
+  - first:
+      213: 6004976017658973481
+    second: wolf_gray_full_scaled_10x_pngcrushed_41
+  - first:
+      213: 2969740750923108902
+    second: wolf_gray_full_scaled_10x_pngcrushed_42
+  - first:
+      213: 5704810913816411924
+    second: wolf_gray_full_scaled_10x_pngcrushed_43
+  - first:
+      213: -2141473948556836440
+    second: wolf_gray_full_scaled_10x_pngcrushed_44
+  - first:
+      213: -940190358903034560
+    second: wolf_gray_full_scaled_10x_pngcrushed_45
+  - first:
+      213: -3270851464725728087
+    second: wolf_gray_full_scaled_10x_pngcrushed_46
+  - first:
+      213: -8486406685326733963
+    second: wolf_gray_full_scaled_10x_pngcrushed_47
+  - first:
+      213: 1164332672885139648
+    second: wolf_gray_full_scaled_10x_pngcrushed_48
+  - first:
+      213: -286030767803658103
+    second: wolf_gray_full_scaled_10x_pngcrushed_49
+  - first:
+      213: 7755643278990171751
+    second: wolf_gray_full_scaled_10x_pngcrushed_50
+  - first:
+      213: 1415328585076054042
+    second: wolf_gray_full_scaled_10x_pngcrushed_51
+  - first:
+      213: -5565447973617792102
+    second: wolf_gray_full_scaled_10x_pngcrushed_52
+  - first:
+      213: -2313715079940633348
+    second: wolf_gray_full_scaled_10x_pngcrushed_53
+  - first:
+      213: -8510153503522780665
+    second: wolf_gray_full_scaled_10x_pngcrushed_54
+  - first:
+      213: 1913488476704822205
+    second: wolf_gray_full_scaled_10x_pngcrushed_55
+  - first:
+      213: -4536632190699015627
+    second: wolf_gray_full_scaled_10x_pngcrushed_56
+  - first:
+      213: -1756573268338755850
+    second: wolf_gray_full_scaled_10x_pngcrushed_57
+  - first:
+      213: -5153070998423947341
+    second: wolf_gray_full_scaled_10x_pngcrushed_58
+  - first:
+      213: 3259779800083623522
+    second: wolf_gray_full_scaled_10x_pngcrushed_59
+  - first:
+      213: -817957354711495678
+    second: wolf_gray_full_scaled_10x_pngcrushed_60
+  - first:
+      213: 4770597093518780476
+    second: wolf_gray_full_scaled_10x_pngcrushed_61
+  - first:
+      213: 705723653286719482
+    second: wolf_gray_full_scaled_10x_pngcrushed_62
+  - first:
+      213: -8831010664171132345
+    second: wolf_gray_full_scaled_10x_pngcrushed_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2239
+        width: 122
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f4cdc4f4213b810800000000000000
+      internalID: 1779786409542700816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 2249
+        width: 122
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1418565f2fd3ce6b0800000000000000
+      internalID: -5265765750594502335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2239
+        width: 122
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082bacaa33d89e1a0800000000000000
+      internalID: -6779732510981311872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_3
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2249
+        width: 142
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baea176e4b95a0720800000000000000
+      internalID: 2813159550741491371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_4
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2249
+        width: 122
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a04920ae65db110800000000000000
+      internalID: 1278273432308681228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 2249
+        width: 122
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21955612ecd5b4d0800000000000000
+      internalID: -3119344303288774357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_6
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 2249
+        width: 122
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb76d9737f155f90800000000000000
+      internalID: -6965626667832804374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_7
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 2249
+        width: 122
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dca5a779aaa54b0800000000000000
+      internalID: -5450856831409009368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1929
+        width: 232
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4529e3fadfaeb5da0800000000000000
+      internalID: -5954907706979610028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_9
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1929
+        width: 232
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e86398ba875aa20800000000000000
+      internalID: 3072994998887026209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1929
+        width: 232
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698e1f566516dc080800000000000000
+      internalID: -9165562642923657066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_11
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1949
+        width: 272
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a41eb0b57cdd96c0800000000000000
+      internalID: -4134906484821715806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_12
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1929
+        width: 262
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95593d3081087ba00800000000000000
+      internalID: 772226701749097817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_13
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1929
+        width: 262
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398fbbebb80839c80800000000000000
+      internalID: -8317162749134374765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_14
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 1929
+        width: 222
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ba25aeff47c5490800000000000000
+      internalID: -7756195815742067919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_15
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 1929
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd83e3c0950f9f180800000000000000
+      internalID: -9080962908367734565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1609
+        width: 232
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc03438acfbbcb0a0800000000000000
+      internalID: -6864405038191333169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_17
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1609
+        width: 232
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3f654c182014b00800000000000000
+      internalID: 810932164271469516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_18
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1609
+        width: 232
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01df0550ac7510b40800000000000000
+      internalID: 5404697553005509904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_19
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1609
+        width: 262
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126bf9217635ad5d0800000000000000
+      internalID: -3037023296548784607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_20
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1609
+        width: 262
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bc729cd016fe360800000000000000
+      internalID: 7201081041026009899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_21
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1629
+        width: 272
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f743bbcb90b3e0fc0800000000000000
+      internalID: -3526816545177389953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_22
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 1609
+        width: 222
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a40657f7569fa10800000000000000
+      internalID: 1943696312291576377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_23
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 1609
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0420e5212c8dea0800000000000000
+      internalID: -5847710731998183188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1279
+        width: 122
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f75e58d1c198620800000000000000
+      internalID: 2776781558376660876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1289
+        width: 122
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4893c7799eb351f60800000000000000
+      internalID: 8004369787175844228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_26
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1279
+        width: 122
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3aeb6508fc0d430800000000000000
+      internalID: 3805769835246166994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_27
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1289
+        width: 142
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0331cb68145d8290800000000000000
+      internalID: -7886554908592098545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_28
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1289
+        width: 122
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78022a8fc1d4d3750800000000000000
+      internalID: 6286265441704878215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_29
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1299
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6df763a52fb57870800000000000000
+      internalID: 8680054025202695535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_30
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 1279
+        width: 122
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2711eb8ee901811c0800000000000000
+      internalID: -4532854750252756622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_31
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 1279
+        width: 122
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4b503a30daa6a60800000000000000
+      internalID: 7668131546683258075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 959
+        width: 202
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f64b021748279e0800000000000000
+      internalID: -1625090894112460929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_33
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 959
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506964265cfb67b80800000000000000
+      internalID: -8397313600707455483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_34
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 969
+        width: 192
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1251e7cf8099580800000000000000
+      internalID: -8820008514688310800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_35
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 989
+        width: 242
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ea98ecf650fde90800000000000000
+      internalID: -6998869318145823098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_36
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 959
+        width: 232
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e406374868525cb0800000000000000
+      internalID: -4876738241594260250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_37
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 959
+        width: 222
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1737eceb22dde6e20800000000000000
+      internalID: 3345854714482684785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_38
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 959
+        width: 172
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50605f28c336ab2c0800000000000000
+      internalID: -4415107373137066491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_39
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 959
+        width: 152
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ff445bae5e50dd0800000000000000
+      internalID: -2520355620217618602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_40
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 639
+        width: 172
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc1a8850e67dfb90800000000000000
+      internalID: -7206473122792727349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_41
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 639
+        width: 172
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d8d415fd5f55350800000000000000
+      internalID: 6004976017658973481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_42
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 649
+        width: 172
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62216c58a73a63920800000000000000
+      internalID: 2969740750923108902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_43
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 649
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f7cccfc4f8b2f40800000000000000
+      internalID: 5704810913816411924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_44
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 639
+        width: 222
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a144803ac4f742e0800000000000000
+      internalID: -2141473948556836440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_45
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 649
+        width: 212
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d665499d5c3f2f0800000000000000
+      internalID: -940190358903034560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_46
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 649
+        width: 182
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f4fb2ce99b92d0800000000000000
+      internalID: -3270851464725728087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_47
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 649
+        width: 152
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d8995251a3a3a80800000000000000
+      internalID: -8486406685326733963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_48
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 329
+        width: 192
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c823b7a56a882010800000000000000
+      internalID: 1164332672885139648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_49
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 319
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9801b3a3880d70cf0800000000000000
+      internalID: -286030767803658103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_50
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 319
+        width: 202
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76edad8987491ab60800000000000000
+      internalID: 7755643278990171751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_51
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 319
+        width: 222
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a181ae179d144a310800000000000000
+      internalID: 1415328585076054042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_52
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 319
+        width: 232
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b08941e8e83c2b0800000000000000
+      internalID: -5565447973617792102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_53
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 349
+        width: 242
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc8ca4b46804efd0800000000000000
+      internalID: -2313715079940633348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_54
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 319
+        width: 172
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a8a7e2a7cd5e980800000000000000
+      internalID: -8510153503522780665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_55
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 319
+        width: 152
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db35bc7a1a31e8a10800000000000000
+      internalID: 1913488476704822205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 9
+        width: 172
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53278c40f05aa01c0800000000000000
+      internalID: -4536632190699015627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_57
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 172
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6b8be4be56f97e0800000000000000
+      internalID: -1756573268338755850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_58
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 0
+        width: 172
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b294aa3d9c78b0800000000000000
+      internalID: -5153070998423947341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_59
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 9
+        width: 212
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e6af505701d3d20800000000000000
+      internalID: 3259779800083623522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_60
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 0
+        width: 222
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cc00f9e1806a4f0800000000000000
+      internalID: -817957354711495678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_61
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 9
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38a2b5e7c0943240800000000000000
+      internalID: 4770597093518780476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_62
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 9
+        width: 182
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affeebf6ceb3bc900800000000000000
+      internalID: 705723653286719482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_gray_full_scaled_10x_pngcrushed_63
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 9
+        width: 152
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74aa462f692f17580800000000000000
+      internalID: -8831010664171132345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wolf_gray_full_scaled_10x_pngcrushed_0: 1779786409542700816
+      wolf_gray_full_scaled_10x_pngcrushed_1: -5265765750594502335
+      wolf_gray_full_scaled_10x_pngcrushed_10: -9165562642923657066
+      wolf_gray_full_scaled_10x_pngcrushed_11: -4134906484821715806
+      wolf_gray_full_scaled_10x_pngcrushed_12: 772226701749097817
+      wolf_gray_full_scaled_10x_pngcrushed_13: -8317162749134374765
+      wolf_gray_full_scaled_10x_pngcrushed_14: -7756195815742067919
+      wolf_gray_full_scaled_10x_pngcrushed_15: -9080962908367734565
+      wolf_gray_full_scaled_10x_pngcrushed_16: -6864405038191333169
+      wolf_gray_full_scaled_10x_pngcrushed_17: 810932164271469516
+      wolf_gray_full_scaled_10x_pngcrushed_18: 5404697553005509904
+      wolf_gray_full_scaled_10x_pngcrushed_19: -3037023296548784607
+      wolf_gray_full_scaled_10x_pngcrushed_2: -6779732510981311872
+      wolf_gray_full_scaled_10x_pngcrushed_20: 7201081041026009899
+      wolf_gray_full_scaled_10x_pngcrushed_21: -3526816545177389953
+      wolf_gray_full_scaled_10x_pngcrushed_22: 1943696312291576377
+      wolf_gray_full_scaled_10x_pngcrushed_23: -5847710731998183188
+      wolf_gray_full_scaled_10x_pngcrushed_24: 2776781558376660876
+      wolf_gray_full_scaled_10x_pngcrushed_25: 8004369787175844228
+      wolf_gray_full_scaled_10x_pngcrushed_26: 3805769835246166994
+      wolf_gray_full_scaled_10x_pngcrushed_27: -7886554908592098545
+      wolf_gray_full_scaled_10x_pngcrushed_28: 6286265441704878215
+      wolf_gray_full_scaled_10x_pngcrushed_29: 8680054025202695535
+      wolf_gray_full_scaled_10x_pngcrushed_3: 2813159550741491371
+      wolf_gray_full_scaled_10x_pngcrushed_30: -4532854750252756622
+      wolf_gray_full_scaled_10x_pngcrushed_31: 7668131546683258075
+      wolf_gray_full_scaled_10x_pngcrushed_32: -1625090894112460929
+      wolf_gray_full_scaled_10x_pngcrushed_33: -8397313600707455483
+      wolf_gray_full_scaled_10x_pngcrushed_34: -8820008514688310800
+      wolf_gray_full_scaled_10x_pngcrushed_35: -6998869318145823098
+      wolf_gray_full_scaled_10x_pngcrushed_36: -4876738241594260250
+      wolf_gray_full_scaled_10x_pngcrushed_37: 3345854714482684785
+      wolf_gray_full_scaled_10x_pngcrushed_38: -4415107373137066491
+      wolf_gray_full_scaled_10x_pngcrushed_39: -2520355620217618602
+      wolf_gray_full_scaled_10x_pngcrushed_4: 1278273432308681228
+      wolf_gray_full_scaled_10x_pngcrushed_40: -7206473122792727349
+      wolf_gray_full_scaled_10x_pngcrushed_41: 6004976017658973481
+      wolf_gray_full_scaled_10x_pngcrushed_42: 2969740750923108902
+      wolf_gray_full_scaled_10x_pngcrushed_43: 5704810913816411924
+      wolf_gray_full_scaled_10x_pngcrushed_44: -2141473948556836440
+      wolf_gray_full_scaled_10x_pngcrushed_45: -940190358903034560
+      wolf_gray_full_scaled_10x_pngcrushed_46: -3270851464725728087
+      wolf_gray_full_scaled_10x_pngcrushed_47: -8486406685326733963
+      wolf_gray_full_scaled_10x_pngcrushed_48: 1164332672885139648
+      wolf_gray_full_scaled_10x_pngcrushed_49: -286030767803658103
+      wolf_gray_full_scaled_10x_pngcrushed_5: -3119344303288774357
+      wolf_gray_full_scaled_10x_pngcrushed_50: 7755643278990171751
+      wolf_gray_full_scaled_10x_pngcrushed_51: 1415328585076054042
+      wolf_gray_full_scaled_10x_pngcrushed_52: -5565447973617792102
+      wolf_gray_full_scaled_10x_pngcrushed_53: -2313715079940633348
+      wolf_gray_full_scaled_10x_pngcrushed_54: -8510153503522780665
+      wolf_gray_full_scaled_10x_pngcrushed_55: 1913488476704822205
+      wolf_gray_full_scaled_10x_pngcrushed_56: -4536632190699015627
+      wolf_gray_full_scaled_10x_pngcrushed_57: -1756573268338755850
+      wolf_gray_full_scaled_10x_pngcrushed_58: -5153070998423947341
+      wolf_gray_full_scaled_10x_pngcrushed_59: 3259779800083623522
+      wolf_gray_full_scaled_10x_pngcrushed_6: -6965626667832804374
+      wolf_gray_full_scaled_10x_pngcrushed_60: -817957354711495678
+      wolf_gray_full_scaled_10x_pngcrushed_61: 4770597093518780476
+      wolf_gray_full_scaled_10x_pngcrushed_62: 705723653286719482
+      wolf_gray_full_scaled_10x_pngcrushed_63: -8831010664171132345
+      wolf_gray_full_scaled_10x_pngcrushed_7: -5450856831409009368
+      wolf_gray_full_scaled_10x_pngcrushed_8: -5954907706979610028
+      wolf_gray_full_scaled_10x_pngcrushed_9: 3072994998887026209
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
