@@ -1,3 +1,0 @@
-<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Label text="Score 20/20" name="Score" style="font-size: 60px; align-items: center; align-self: center; -unity-font-style: bold; color: rgb(0, 0, 0); -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=04636716ae271e04b8a3ac93fba49426&amp;type=3#NotInter-Regular&quot;);" />
-</ui:UXML>

@@ -77,7 +77,11 @@ public class Minigame_UI_Script : MonoBehaviour
 
     private void OnHomeClicked()
     {
+<<<<<<< HEAD
         SceneManager.LoadScene("Menu");
+=======
+        //SceneManager.LoadScene("");
+>>>>>>> parent of 1a88abf (help)
     }
 
     private void ShowHowToPlay()
