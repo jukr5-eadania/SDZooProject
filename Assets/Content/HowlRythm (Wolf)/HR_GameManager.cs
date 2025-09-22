@@ -14,7 +14,7 @@ public class HR_GameManager : MonoBehaviour, IMinigame
 
     [Header("UI")]
     [SerializeField] private HR_UI_Script uiScript;
-    private int currentRound = 1;
+    private int currentRound;
 
     private List<int> sequence = new();
     private int currentStep = 0;
@@ -33,6 +33,7 @@ public class HR_GameManager : MonoBehaviour, IMinigame
 
     public void StartGame()
     {
+        currentRound = 1;
         UpdateRoundUI();
         sequence.Clear();
         AddStepToSequence();

@@ -2,10 +2,10 @@
 }
 
 .HUDButton {
-    width: 150px;
+    width: 10%;
     align-self: center;
     align-items: stretch;
-    height: 150px;
+    height: 5%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
