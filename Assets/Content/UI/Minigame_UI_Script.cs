@@ -56,11 +56,6 @@ public class Minigame_UI_Script : MonoBehaviour
 
         stickerImage.style.backgroundImage = new StyleBackground(data.victorySticker);
         howToPlayText.text = data.howToPlayText;
-
-        Debug.Log("StartButton: " + startButton);
-        Debug.Log("howToPlayButton: " + howToPlayButton);
-        Debug.Log("homeButton: " + homeButton);
-        Debug.Log("victoryHomeButton: " + victoryHomeButton);
     }
 
     private void Start()
@@ -95,7 +90,6 @@ public class Minigame_UI_Script : MonoBehaviour
     {
         howToPlayPopup.style.display = DisplayStyle.None;
         activeMinigame.StartGame();
-        Debug.Log("stuff happened");
     }
 
     public void ShowVictoryPopup()
