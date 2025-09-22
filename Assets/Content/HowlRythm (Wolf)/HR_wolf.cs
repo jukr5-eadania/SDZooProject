@@ -50,19 +50,9 @@ public class HR_wolf : MonoBehaviour
 
         Vector2 tapPos = Vector2.zero;
 
-        if (Mouse.current != null)
-        {
-            tapPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        }
-        else if (Touchscreen.current != null)
-        {
-            tapPos = Camera.main.ScreenToWorldPoint(Touchscreen.current.primaryTouch.position.ReadValue());
-        }
-        else
-        {
-            Debug.LogWarning("No Mouse or Touchscreen input found.");
-            return;
-        }
+        Vector3 screenPos = Pointer.current.position.ReadValue();
+        screenPos.z = Mathf.Abs(Camera.main.transform.position.z);
+        tapPos = Camera.main.ScreenToWorldPoint(screenPos);
 
         if (GetComponent<Collider2D>().OverlapPoint(tapPos))
         {
