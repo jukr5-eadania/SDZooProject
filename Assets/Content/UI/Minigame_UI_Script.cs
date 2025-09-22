@@ -77,7 +77,12 @@ public class Minigame_UI_Script : MonoBehaviour
 
     private void OnHomeClicked()
     {
+<<<<<<< HEAD
         //SceneManager.LoadScene("");
+=======
+        Debug.Log("Home Clicked");
+        SceneManager.LoadScene("Menu");
+>>>>>>> parent of 67aef27 (Revert "Merge branch 'main' into UlvMinigame")
     }
 
     private void ShowHowToPlay()
