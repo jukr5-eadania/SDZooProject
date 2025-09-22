@@ -21,8 +21,6 @@ public class BearUIManager : MonoBehaviour
     {
         if (scoreLabel != null)
         {
-            //scoreLabel.text = $"Fundet {found} ud af {total}";
-
             string template = scoreLabel.text;
             template = template.Replace("{found}", found.ToString());
             template = template.Replace("{total}", total.ToString());
