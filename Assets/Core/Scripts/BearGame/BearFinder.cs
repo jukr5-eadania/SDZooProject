@@ -87,7 +87,7 @@ public class BearFinder : MonoBehaviour
 
             found = true;
             animator.Play("Idle_anim");            
-            BearGameManager.Instance.BearFound();
+            B_GameManager.Instance.BearFound();
         }
 
         

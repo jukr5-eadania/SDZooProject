@@ -1,6 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Content/UI/BearGameUI.uss?fileID=7433441132597879392&amp;guid=cbce2d25138520f469be67babf42d00e&amp;type=3#BearGameUI" />
     <ui:VisualElement name="Panel" style="flex-grow: 1;">
-        <ui:Label name="scoreLabel" text="Fundet {found} ud af {total} bjørne!" parse-escape-sequences="true" style="position: relative; font-size: 50px; color: rgb(195, 255, 0); -unity-font-style: bold; background-color: rgba(0, 0, 0, 0); width: auto; -unity-text-align: upper-center;" />
+        <ui:Label text="{found} fundet ud af {total}" name="scoreLabel" style="color: rgb(151, 255, 0); font-size: 65px;" />
     </ui:VisualElement>
 </ui:UXML>
