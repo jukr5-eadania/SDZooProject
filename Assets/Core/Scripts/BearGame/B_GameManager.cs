@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class B_GameManager : MonoBehaviour
+public class B_GameManager : MonoBehaviour, IMinigame
 {
     public static B_GameManager Instance { get; private set; }
 
@@ -8,9 +8,10 @@ public class B_GameManager : MonoBehaviour
     [Tooltip("Total number of hidden objects")]
     [SerializeField] private int totalBears = 3;
     [Tooltip("Reference to the UI Manager that updates the score display")]
-    [SerializeField] private B_UIManager uIManager;
+    [SerializeField] private B_UIManager uiManager;
 
     private int bearsFound = 0;
+    public bool IsGameActive { get; private set; } = false;
 
     // read-only properties
     public int BearsFound => bearsFound;
@@ -27,19 +28,38 @@ public class B_GameManager : MonoBehaviour
         Instance = this;
     }
 
+    public void StartGame()
+    {
+        bearsFound = 0;
+        IsGameActive = true;
+
+        if(uiManager != null)
+        {
+            uiManager.UpdateScore(bearsFound, totalBears);
+        }
+        BearFinder[] bearFinders = FindObjectsByType<BearFinder>(FindObjectsSortMode.None);
+        foreach (var finder in bearFinders)
+        {
+            finder.ResetBear();
+        }
+    }
+
     public void BearFound()
     {
         bearsFound++;
         Debug.Log($"Bears found: {bearsFound} / {totalBears}");
 
-        if (uIManager != null)
+        if (uiManager != null)
         {
-            uIManager.UpdateScore(bearsFound, totalBears);
+            uiManager.UpdateScore(bearsFound, totalBears);
         }
 
         if (bearsFound == totalBears)
         {
             Debug.Log("You found all the bear cubs!");
+            IsGameActive = false;
         }
     }
+    
+
 }

@@ -13,6 +13,7 @@ public class BearInputHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Click(Mouse.current.position.ReadValue());

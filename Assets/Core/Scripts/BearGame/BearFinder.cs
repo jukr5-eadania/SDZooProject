@@ -27,20 +27,20 @@ public class BearFinder : MonoBehaviour
 
     private bool found = false;
 
-    private void Start()
-    {
-        if(hasBear && !found && objectData != null && animator != null)
-        {
-            AnimatorOverrideController overrideController = new AnimatorOverrideController(baseController);
+    //private void Start()
+    //{
+    //    if(hasBear && !found && objectData != null && animator != null)
+    //    {
+    //        AnimatorOverrideController overrideController = new AnimatorOverrideController(baseController);
 
-            overrideController["Hint_anim"] = objectData.hintAnimation;
-            overrideController["Idle_anim"] = objectData.idleAnimation;
+    //        overrideController["Hint_anim"] = objectData.hintAnimation;
+    //        overrideController["Idle_anim"] = objectData.idleAnimation;
 
-            animator.runtimeAnimatorController = overrideController;
-            StartCoroutine(PlayHintLoop());            
-        }
+    //        animator.runtimeAnimatorController = overrideController;
+    //        StartCoroutine(PlayHintLoop());            
+    //    }
 
-    }
+    //}
 
     private IEnumerator PlayHintLoop()
     {
@@ -68,8 +68,9 @@ public class BearFinder : MonoBehaviour
     /// </summary>
     public void OnFound()
     {
-        Debug.Log("The bush was clicked");
+        if (!B_GameManager.Instance.IsGameActive) {  return; }
 
+        Debug.Log("The bush was clicked");
         if (found)
         {
             Debug.Log("A bear her has already been found");
@@ -89,8 +90,23 @@ public class BearFinder : MonoBehaviour
             animator.Play("Idle_anim");            
             B_GameManager.Instance.BearFound();
         }
+                
+    }
 
-        
+    public void ResetBear()
+    {
+        found = false;
+        if(bearCub != null) { bearCub.SetActive(false); }
+        if(hasBear && objectData != null && animator != null)
+        {
+            AnimatorOverrideController overrideController = new AnimatorOverrideController(baseController);
+
+            overrideController["Hint_anim"] = objectData.hintAnimation;
+            overrideController["Idle_anim"] = objectData.idleAnimation;
+
+            animator.runtimeAnimatorController = overrideController;
+            StartCoroutine(PlayHintLoop());
+        }
     }
 
 }
