@@ -1,0 +1,6 @@
+:root {
+}
+
+.Labels {
+    font-size: 75px;
+}
