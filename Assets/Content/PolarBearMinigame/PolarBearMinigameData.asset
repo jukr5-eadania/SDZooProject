@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: PolarBearMinigameData
   m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Data
   victorySticker: {fileID: 5382581988669551125, guid: 1bf9e63a7c6e5114fb6b91794839b8b1, type: 3}
-  howToPlayText: oop
+  howToPlayText: "Hj\xE6lp isbj\xF8rnen med at fange fisk. Tryk p\xE5 en fisk n\xE5r
+    den stikker hovedet op af vandhullet for at fange den."

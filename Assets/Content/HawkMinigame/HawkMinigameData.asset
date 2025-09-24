@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: HawkMinigameData
   m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Data
   victorySticker: {fileID: -4814140680951884065, guid: a512666b308f96e40a8a02e30f5d9c3e, type: 3}
-  howToPlayText: oop
+  howToPlayText: "Hj\xE6lp \xF8rnen med at fange fisk. Tr\xE6k i \xF8rnen for at
+    sigte den, giv slip for at sende den afsted."
