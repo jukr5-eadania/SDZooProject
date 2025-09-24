@@ -28,7 +28,7 @@ public class B_GameManager : MonoBehaviour, IMinigame
 
         Instance = this;
 
-        StartGame();
+        //StartGame();
     }
 
     public void StartGame()
@@ -56,6 +56,7 @@ public class B_GameManager : MonoBehaviour, IMinigame
         {
             uiManager.UpdateScore(bearsFound, totalBears);
         }
+        else { Debug.Log("UI Manager is null"); }
 
         if (bearsFound == totalBears)
         {
