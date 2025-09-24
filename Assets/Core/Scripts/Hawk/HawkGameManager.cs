@@ -32,6 +32,7 @@ public class HawkGameManager : MonoBehaviour, IMinigame
     public void StartGame()
     {
         Instantiate(fishPrefab);
+        fishCurrent = 0;
         started = true;
     }
 

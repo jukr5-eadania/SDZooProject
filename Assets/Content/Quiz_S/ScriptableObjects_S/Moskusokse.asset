@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a25b8d2879ddf234c802f47feadfa06e, type: 3}
+  m_Name: Moskusokse
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  animalName: Moskusokse
+  animalSprite: {fileID: 0}
+  animalSound: {fileID: 0}
+  funFact: 
+  questions:
+  - questionText: Hvad hedder dens uld?
+    answer:
+    - Qiviut
+    - Tutut
+    - Muskus Uld
+    - Pelsolit
+    correctAnswerIndex: 0
+  - questionText: "Hvor meget varmere er dens uld fremfor f\xE5reuld?"
+    answer:
+    - "2 gange s\xE5 meget"
+    - "4 gange s\xE5 meget"
+    - 8 gange sp meget
+    - "Den er ikke varmere end f\xE5reuld"
+    correctAnswerIndex: 2
+  - questionText: "HVad er Mokusoksen besl\xE6gtet med?"
+    answer:
+    - Andre okser
+    - "F\xE5r & Geder"
+    - "K\xF8er"
+    - "F\xE5r & k\xF8er"
+    correctAnswerIndex: 1
+  - questionText: Hvad spiser moksusoksen?
+    answer:
+    - "K\xF8d\xE6der"
+    - Fisk
+    - "Plante\xE6der"
+    - "Alt\xE6dende"
+    correctAnswerIndex: 2

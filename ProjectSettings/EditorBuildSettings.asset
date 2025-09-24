@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Content/Scenes/HR_Scene.unity
-    guid: 76ac19fadfdbfc440aeb1737ebdb2b77
-  - enabled: 1
     path: Assets/Content/Scenes/Menu.unity
     guid: 9e7b9e19a4aa2fd438da9e5294c9798c
   - enabled: 1
     path: Assets/Content/Scenes/HawkMinigame.unity
     guid: c5799d288da8cd542bcc402cfecbc396
+  - enabled: 1
+    path: Assets/Content/HowlRythm (Wolf)/HR_Scene.unity
+    guid: 76ac19fadfdbfc440aeb1737ebdb2b77
+  - enabled: 1
+    path: Assets/Content/Scenes/StartMenu_S.unity
+    guid: 2d450f67e66062b4da132325d920350d
+  - enabled: 1
+    path: Assets/Content/Scenes/QuizScene.unity
+    guid: ac59d8549e8bec14e8aeff47a89e4c6a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
