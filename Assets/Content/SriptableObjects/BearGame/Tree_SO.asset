@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246d3eaf9976a1e488aade19f7ac0a11, type: 3}
+  m_Name: Tree_SO
+  m_EditorClassIdentifier: Assembly-CSharp::HiddenObjectData_SO
+  idleAnimation: {fileID: 7400000, guid: 691bf086ae3ac4247897b7826177d5c8, type: 2}
+  hintAnimation: {fileID: 7400000, guid: 9ee5b6eff40fe2646ade15d8139efa89, type: 2}
+  hintDuration: 1.5
+  timeBetweenHint: 2
+  hintSound: {fileID: 8300000, guid: a937b233f554676459eb81c568e19b0c, type: 3}
+  foundSound: {fileID: 8300000, guid: 1c0952c4763a6214e9ae59ee3c1ef45a, type: 3}
