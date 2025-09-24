@@ -62,6 +62,7 @@ public class B_GameManager : MonoBehaviour, IMinigame
         {
             Debug.Log("You found all the bear cubs!");
             IsGameActive = false;
+            Minigame_UI_Script.Instance.ShowVictoryPopup();
         }
     }
     
