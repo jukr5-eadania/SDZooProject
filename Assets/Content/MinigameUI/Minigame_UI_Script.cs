@@ -83,7 +83,7 @@ public class Minigame_UI_Script : MonoBehaviour
     private void OnHomeClicked()
     {
         Debug.Log("Home Clicked");
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Mainmenu");
     }
 
     private void ShowHowToPlay()

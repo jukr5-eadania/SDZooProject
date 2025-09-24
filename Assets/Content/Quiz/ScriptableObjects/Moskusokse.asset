@@ -28,10 +28,10 @@ MonoBehaviour:
     answer:
     - "2 gange s\xE5 meget"
     - "4 gange s\xE5 meget"
-    - 8 gange sp meget
+    - "8 gange s\xE5 meget"
     - "Den er ikke varmere end f\xE5reuld"
     correctAnswerIndex: 2
-  - questionText: "HVad er Mokusoksen besl\xE6gtet med?"
+  - questionText: "Hvad er Mokusoksen besl\xE6gtet med?"
     answer:
     - Andre okser
     - "F\xE5r & Geder"
@@ -40,8 +40,8 @@ MonoBehaviour:
     correctAnswerIndex: 1
   - questionText: Hvad spiser moksusoksen?
     answer:
-    - "K\xF8d\xE6der"
+    - "K\xF8d"
     - Fisk
-    - "Plante\xE6der"
-    - "Alt\xE6dende"
+    - Planter
+    - Alt
     correctAnswerIndex: 2

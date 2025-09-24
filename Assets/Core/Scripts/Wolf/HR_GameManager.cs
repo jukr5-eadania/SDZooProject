@@ -16,6 +16,9 @@ public class HR_GameManager : MonoBehaviour, IMinigame
     [SerializeField] private HR_UI_Script uiScript;
     private int currentRound;
 
+    [Header("Save Settings")]
+    [SerializeField] private SaveSO saveSO;
+
     private List<int> sequence = new();
     private int currentStep = 0;
     private bool playerTurn = false;
@@ -128,5 +131,9 @@ public class HR_GameManager : MonoBehaviour, IMinigame
         playerTurn = false;
         Debug.Log("PlayerWins");
         Minigame_UI_Script.Instance.ShowVictoryPopup();
+        if (saveSO.saveData.TryGetValue("Wolf", out bool value))
+        {
+            saveSO.saveData["Wolf"] = true;
+        }
     }
 }

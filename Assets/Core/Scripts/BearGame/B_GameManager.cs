@@ -13,6 +13,9 @@ public class B_GameManager : MonoBehaviour, IMinigame
     private int bearsFound = 0;
     public bool IsGameActive { get; private set; } = false;
 
+    [Header("Save Settings")]
+    [SerializeField] private SaveSO saveSO;
+
     // read-only properties
     public int BearsFound => bearsFound;
     public int TotalBears => totalBears;
@@ -63,6 +66,10 @@ public class B_GameManager : MonoBehaviour, IMinigame
             Debug.Log("You found all the bear cubs!");
             IsGameActive = false;
             Minigame_UI_Script.Instance.ShowVictoryPopup();
+            if (saveSO.saveData.TryGetValue("Bear", out bool value))
+            {
+                saveSO.saveData["Bear"] = true;
+            }
         }
     }
     

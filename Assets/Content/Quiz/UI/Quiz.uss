@@ -11,7 +11,7 @@
 Label {
     position: relative;
     color: rgb(46, 61, 37);
-    font-size: 20px;
+    font-size: 40px;
     unity-text-align: center;
     unity-text-wrap: wrap;
     z-index: 1;
@@ -22,8 +22,8 @@ Label {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 18px;
-    color: rgb(242, 201, 76);
+    font-size: 40px;
+    color: rgb(0, 0, 255);
     -unity-text-align: right;
     z-index: 1;
 }
@@ -32,10 +32,10 @@ Button {
     position: relative;
     background-color: rgb(163, 196, 139);
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 40px;
     border-radius: 8px;
     padding: 4px 8px;
-    min-height: 32px;
+    min-height: 10%;
     z-index: 1;
 }
 
