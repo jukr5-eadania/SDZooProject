@@ -19,6 +19,7 @@ public class B_GameManager : MonoBehaviour, IMinigame
 
     private void Awake()
     {
+        
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -26,6 +27,8 @@ public class B_GameManager : MonoBehaviour, IMinigame
         }
 
         Instance = this;
+
+        StartGame();
     }
 
     public void StartGame()

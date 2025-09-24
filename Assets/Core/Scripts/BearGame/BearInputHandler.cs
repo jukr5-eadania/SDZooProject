@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
-public class BearInputHandler : MonoBehaviour
+public class BearInputHandler : MonoBehaviour 
 {
     private Camera mainCam;
 
@@ -14,25 +15,29 @@ public class BearInputHandler : MonoBehaviour
     void Update()
     {
         
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            Click(Mouse.current.position.ReadValue());
-        }
+        //if (Mouse.current.leftButton.wasPressedThisFrame)
+        //{
+        //    Click(Mouse.current.position.ReadValue());
+        //}
     }
 
-    private void Click(Vector2 screenPos)
-    {
-        Vector2 worldPos = mainCam.ScreenToWorldPoint(screenPos);
-        RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+    
 
-        if (hit.collider != null)
-        {
-            BearFinder bearFinder = hit.collider.GetComponent<BearFinder>();
+    //private void Click(Vector2 screenPos)
+    //{
+    //    Vector2 worldPos = mainCam.ScreenToWorldPoint(screenPos);
+    //    RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
 
-            if (bearFinder != null)
-            {
-                bearFinder.OnFound();
-            }
-        } 
-    }
+    //    if (hit.collider != null)
+    //    {
+    //        BearFinder bearFinder = hit.collider.GetComponent<BearFinder>();
+
+    //        if (bearFinder != null)
+    //        {
+    //            bearFinder.OnFound();
+    //        }
+    //    } 
+    //}
+
+   
 }

@@ -1,7 +1,8 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BearFinder : MonoBehaviour
+public class BearFinder : MonoBehaviour, IPointerDownHandler
 {
     [Header("Settings")]
     [Tooltip("Set to true if this object is holding a hidden object")]
@@ -109,4 +110,9 @@ public class BearFinder : MonoBehaviour
         }
     }
 
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        Debug.Log("Runs OnPointerDown");
+        OnFound();
+    }
 }
