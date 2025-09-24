@@ -1,8 +1,8 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Content/Quiz/UI/Quiz.uss?fileID=7433441132597879392&amp;guid=b47c742f94e26ea4d836d64e4b2faaf0&amp;type=3#Quiz" />
     <ui:VisualElement name="background" style="flex-grow: 1;" />
-    <ui:Label text="Label" name="questionLabel" style="white-space: normal; width: auto; max-width: 80%;" />
-    <ui:Label text="Score: 0" name="scoreLabel" />
+    <ui:Label text="Label" name="questionLabel" style="white-space: normal; width: auto; max-width: 70%; font-size: 40%;" />
+    <ui:Label text="Score: 0" name="scoreLabel" style="font-size: 40%;" />
     <ui:VisualElement name="buttonContainer" style="flex-grow: 1;">
         <ui:Button text="Button" name="buttonTemplate" style="height: auto; min-height: auto;" />
     </ui:VisualElement>

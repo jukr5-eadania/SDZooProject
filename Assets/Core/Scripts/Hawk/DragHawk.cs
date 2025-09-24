@@ -31,7 +31,7 @@ public class DragHawk : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (state == State.Dragging)
         {
-            transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Mouse.current.position.x.value, Mouse.current.position.y.value)) + offset;
+            transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Touchscreen.current.position.x.value, Touchscreen.current.position.y.value)) + offset;
             Bounds();
         }
 
@@ -75,7 +75,7 @@ public class DragHawk : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         if (state == State.Idle || state == State.Dragging)
         {
-            offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Mouse.current.position.x.value, Mouse.current.position.y.value));
+            offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Touchscreen.current.position.x.value, Touchscreen.current.position.y.value));
             state = State.Dragging;
         }
     }
