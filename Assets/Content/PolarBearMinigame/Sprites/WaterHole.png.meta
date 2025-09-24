@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 19eb8e2faaaf7064ea01f47d1b604fc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6906001394092027276
+    second: WaterHole_0
+  - first:
+      213: -999534316727855321
+    second: WaterHole_1
+  - first:
+      213: 4947562236450432763
+    second: WaterHole_2
+  - first:
+      213: -7594499445864315615
+    second: WaterHole_3
+  - first:
+      213: 3866178518761456062
+    second: WaterHole_4
+  - first:
+      213: 6049422618663711761
+    second: WaterHole_5
+  - first:
+      213: 8388791691828173319
+    second: WaterHole_6
+  - first:
+      213: -8825468702915223947
+    second: WaterHole_7
+  - first:
+      213: 5232592352849132247
+    second: WaterHole_8
+  - first:
+      213: -5243520547848170708
+    second: WaterHole_9
+  - first:
+      213: -6665726294087339694
+    second: WaterHole_10
+  - first:
+      213: -2913996826055911206
+    second: WaterHole_11
+  - first:
+      213: -3938132864214853228
+    second: WaterHole_12
+  - first:
+      213: 7752542381471502033
+    second: WaterHole_13
+  - first:
+      213: -1771573929040052242
+    second: WaterHole_14
+  - first:
+      213: 2825008354306341980
+    second: WaterHole_15
+  - first:
+      213: 3968684467882962489
+    second: WaterHole_16
+  - first:
+      213: -5309334754818635750
+    second: WaterHole_17
+  - first:
+      213: -8787498425030728836
+    second: WaterHole_18
+  - first:
+      213: -8681960762116977102
+    second: WaterHole_19
+  - first:
+      213: 8397655436571659397
+    second: WaterHole_20
+  - first:
+      213: -4641292107871202982
+    second: WaterHole_21
+  - first:
+      213: -8055871605256301037
+    second: WaterHole_22
+  - first:
+      213: 8600212641353913975
+    second: WaterHole_23
+  - first:
+      213: -2251914118553073971
+    second: WaterHole_24
+  - first:
+      213: 7104004675038557090
+    second: WaterHole_25
+  - first:
+      213: 7764187193298455918
+    second: WaterHole_26
+  - first:
+      213: 1641909291300791518
+    second: WaterHole_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterHole_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472dac65254f820a0800000000000000
+      internalID: -6906001394092027276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7279f9ea5d0f022f0800000000000000
+      internalID: -999534316727855321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6e3c704a549a440800000000000000
+      internalID: 4947562236450432763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1254b5acdfaea9690800000000000000
+      internalID: -7594499445864315615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_4
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1c50101ec67a530800000000000000
+      internalID: 3866178518761456062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_5
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114f9a902ddd3f350800000000000000
+      internalID: 6049422618663711761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 211
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a9a261999fa6470800000000000000
+      internalID: 8388791691828173319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e196a59f2a58580800000000000000
+      internalID: -8825468702915223947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da7ffd7507ed9840800000000000000
+      internalID: 5232592352849132247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c235c05d7d54b37b0800000000000000
+      internalID: -5243520547848170708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25171f680459e73a0800000000000000
+      internalID: -6665726294087339694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8525263576f87d0800000000000000
+      internalID: -2913996826055911206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_12
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4999e2e6601f859c0800000000000000
+      internalID: -3938132864214853228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_13
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 146
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de05c1a830969b60800000000000000
+      internalID: 7752542381471502033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef7932d5ea1a67e0800000000000000
+      internalID: -1771573929040052242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cb0f57122743720800000000000000
+      internalID: 2825008354306341980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e26cd1f79931730800000000000000
+      internalID: 3968684467882962489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a184669ab247156b0800000000000000
+      internalID: -5309334754818635750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_18
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c732db79db88c0680800000000000000
+      internalID: -8787498425030728836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_19
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e43249faa738780800000000000000
+      internalID: -8681960762116977102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_20
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 71
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c4bfa70277a8470800000000000000
+      internalID: 8397655436571659397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5153832b61d69fb0800000000000000
+      internalID: -4641292107871202982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316da84f47bc33090800000000000000
+      internalID: -8055871605256301037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77659b8d4d71a5770800000000000000
+      internalID: 8600212641353913975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_24
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc605f25a089fb0e0800000000000000
+      internalID: -2251914118553073971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_25
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a333620d9e769260800000000000000
+      internalID: 7104004675038557090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_26
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d013aad1fefbb60800000000000000
+      internalID: 7764187193298455918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterHole_27
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 6
+        width: 122
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4a56d1dcb39c610800000000000000
+      internalID: 1641909291300791518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WaterHole_0: -6906001394092027276
+      WaterHole_1: -999534316727855321
+      WaterHole_10: -6665726294087339694
+      WaterHole_11: -2913996826055911206
+      WaterHole_12: -3938132864214853228
+      WaterHole_13: 7752542381471502033
+      WaterHole_14: -1771573929040052242
+      WaterHole_15: 2825008354306341980
+      WaterHole_16: 3968684467882962489
+      WaterHole_17: -5309334754818635750
+      WaterHole_18: -8787498425030728836
+      WaterHole_19: -8681960762116977102
+      WaterHole_2: 4947562236450432763
+      WaterHole_20: 8397655436571659397
+      WaterHole_21: -4641292107871202982
+      WaterHole_22: -8055871605256301037
+      WaterHole_23: 8600212641353913975
+      WaterHole_24: -2251914118553073971
+      WaterHole_25: 7104004675038557090
+      WaterHole_26: 7764187193298455918
+      WaterHole_27: 1641909291300791518
+      WaterHole_3: -7594499445864315615
+      WaterHole_4: 3866178518761456062
+      WaterHole_5: 6049422618663711761
+      WaterHole_6: 8388791691828173319
+      WaterHole_7: -8825468702915223947
+      WaterHole_8: 5232592352849132247
+      WaterHole_9: -5243520547848170708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95bd0111a30066440b5554bd430243dc, type: 3}
+  m_Name: PolarBearMinigameData
+  m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Data
+  victorySticker: {fileID: 5382581988669551125, guid: 1bf9e63a7c6e5114fb6b91794839b8b1, type: 3}
+  howToPlayText: "Hj\xE6lp isbj\xF8rnen med at fange fisk. Tryk p\xE5 en fisk n\xE5r
+    den stikker hovedet op af vandhullet for at fange den."
