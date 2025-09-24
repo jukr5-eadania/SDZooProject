@@ -17,6 +17,9 @@ public class QuizUI : MonoBehaviour
     private Label scoreLabel;
     private int score = 0;
 
+    private bool started = false;
+    private float startTimer = 0;
+
     // Results
     private VisualElement resultsVisualElement;
     private Label resultsLabel;
@@ -32,7 +35,6 @@ public class QuizUI : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("enabled");
         currentQuestionIndex = 0;
         var root = uiDocument.rootVisualElement;
 
@@ -51,10 +53,19 @@ public class QuizUI : MonoBehaviour
         if (buttonTemplate != null)
             buttonTemplate.style.display = DisplayStyle.None; // Hide template button
 
-        ShowQuestion();
-
         scoreLabel = root.Q<Label>("scoreLabel");
-        UpdateScoreUI();
+    }
+    private void Update()
+    {
+        if (startTimer < 0.5f)
+        {
+            startTimer += Time.deltaTime;
+        }
+        else if (!started)
+        {
+            started = true;
+            StartQuiz();
+        }
     }
 
     private void ShowQuestion()
@@ -79,10 +90,12 @@ public class QuizUI : MonoBehaviour
             if (templateClasses != null)
                 foreach (var cls in templateClasses)
                     answerButton.AddToClassList(cls);
+                
 
 
             int index = i; //Capture index for the closure
             answerButton.clicked += () => OnAnswerSelected(index);
+
 
             answerButton.style.display = DisplayStyle.Flex;
 
@@ -92,6 +105,7 @@ public class QuizUI : MonoBehaviour
 
     private void OnAnswerSelected(int index)
     {
+        
         var animal = GameManager.Instance.selectedAnimal;
         var question = animal.questions[currentQuestionIndex];
 
@@ -115,7 +129,7 @@ public class QuizUI : MonoBehaviour
         {
             Debug.Log("Quiz Finished!");
             resultsVisualElement.style.display = DisplayStyle.Flex;
-            if (score < animal.questions.Length / 2)
+            if (score < (animal.questions.Length / 2)+1)
             {
                 resultsLabel.text = "Du fik ikke nok point, prøv igen for at få et klistermærke";
                 
@@ -140,5 +154,10 @@ public class QuizUI : MonoBehaviour
     private void GoHome()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
+    private void StartQuiz()
+    {
+        ShowQuestion();
+        UpdateScoreUI();
     }
 }
