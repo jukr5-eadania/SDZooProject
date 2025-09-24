@@ -31,7 +31,6 @@ public class B_GameManager : MonoBehaviour, IMinigame
 
         Instance = this;
 
-        //StartGame();
     }
 
     public void StartGame()
