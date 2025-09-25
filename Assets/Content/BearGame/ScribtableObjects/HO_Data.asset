@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: HO_Data
   m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Data
   victorySticker: {fileID: 0}
-  howToPlayText: spille regler
+  howToPlayText: "Bj\xF8rneungerne har gemt sig fra bj\xF8rnemor, kan du hj\xE6lpe
+    med at finde dem. Klik p\xE5 de steder du tror bj\xF8rneungerne gemmer sig"

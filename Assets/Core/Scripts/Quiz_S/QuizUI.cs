@@ -128,6 +128,7 @@ public class QuizUI : MonoBehaviour
         else
         {
             Debug.Log("Quiz Finished!");
+            buttonContainer.Clear();
             resultsVisualElement.style.display = DisplayStyle.Flex;
             if (score < (animal.questions.Length / 2)+1)
             {

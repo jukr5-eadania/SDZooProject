@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: HR_Minigame_UI_Data
   m_EditorClassIdentifier: Assembly-CSharp::Minigame_UI_Data
   victorySticker: {fileID: 1779786409542700816, guid: fce2a12677c48714485211f047a1e8cc, type: 3}
-  howToPlayText: GO WOLVES
+  howToPlayText: "Hj\xE6lp Ulvene med at hyle som gruppe.\nHold \xF8je med r\xE6kkef\xF8lgen
+    ulvene hyler i og tryk p\xE5 ulvene i samme r\xE6kkef\xF8lge."

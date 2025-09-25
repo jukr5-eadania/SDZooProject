@@ -20,11 +20,6 @@ public class HawkGameManager : MonoBehaviour, IMinigame
 
     [Header("Save Settings")]
     [SerializeField] private SaveSO saveSO;
-    [SerializeField] private string saveName;
-
-
-
-
 
     void Start()
     {
