@@ -1,7 +1,8 @@
-using UnityEngine;
-using UnityEngine.UIElements;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class QuizUI : MonoBehaviour
 {
@@ -16,18 +17,35 @@ public class QuizUI : MonoBehaviour
     private Label scoreLabel;
     private int score = 0;
 
+    private bool started = false;
+    private float startTimer = 0;
+
+    // Results
+    private VisualElement resultsVisualElement;
+    private Label resultsLabel;
+    private Button homeButton;
+
     //Cache for TemplateClasses 
     private List<string> templateClasses;
 
     private int currentQuestionIndex = 0;
 
-    private void OnEnable()
+    [Header("Save Settings")]
+    [SerializeField] private SaveSO saveSO;
+
+    private void Start()
     {
+        currentQuestionIndex = 0;
         var root = uiDocument.rootVisualElement;
 
         questionLabel = root.Q<Label>("questionLabel");
         buttonContainer = root.Q<VisualElement>("buttonContainer");
         buttonTemplate = root.Q<UnityEngine.UIElements.Button>("buttonTemplate");
+
+        resultsVisualElement = root.Q<VisualElement>("Results");
+        resultsLabel = root.Q<Label>("ResultsLabel");
+        homeButton = root.Q<Button>("HomeButton");
+        homeButton.clicked += GoHome;
 
         // Cache TemplateClasses for answerButton styling
         templateClasses = buttonTemplate != null ? buttonTemplate.GetClasses().ToList() : null;
@@ -35,10 +53,19 @@ public class QuizUI : MonoBehaviour
         if (buttonTemplate != null)
             buttonTemplate.style.display = DisplayStyle.None; // Hide template button
 
-        ShowQuestion();
-
         scoreLabel = root.Q<Label>("scoreLabel");
-        UpdateScoreUI();
+    }
+    private void Update()
+    {
+        if (startTimer < 0.5f)
+        {
+            startTimer += Time.deltaTime;
+        }
+        else if (!started)
+        {
+            started = true;
+            StartQuiz();
+        }
     }
 
     private void ShowQuestion()
@@ -63,10 +90,12 @@ public class QuizUI : MonoBehaviour
             if (templateClasses != null)
                 foreach (var cls in templateClasses)
                     answerButton.AddToClassList(cls);
+                
 
 
             int index = i; //Capture index for the closure
             answerButton.clicked += () => OnAnswerSelected(index);
+
 
             answerButton.style.display = DisplayStyle.Flex;
 
@@ -76,6 +105,7 @@ public class QuizUI : MonoBehaviour
 
     private void OnAnswerSelected(int index)
     {
+        
         var animal = GameManager.Instance.selectedAnimal;
         var question = animal.questions[currentQuestionIndex];
 
@@ -98,6 +128,22 @@ public class QuizUI : MonoBehaviour
         else
         {
             Debug.Log("Quiz Finished!");
+            buttonContainer.Clear();
+            resultsVisualElement.style.display = DisplayStyle.Flex;
+            if (score < (animal.questions.Length / 2)+1)
+            {
+                resultsLabel.text = "Du fik ikke nok point, prøv igen for at få et klistermærke";
+                
+            }
+            else
+            {
+                resultsLabel.text = "Tilykke, du fik nok point til at få et klistermærke";
+                if (saveSO.saveData.TryGetValue(animal.name, out bool value))
+                {
+                    saveSO.saveData[animal.name] = true;
+                }
+            }
+
         }
     }
 
@@ -105,5 +151,14 @@ public class QuizUI : MonoBehaviour
     {
         if (scoreLabel != null)
             scoreLabel.text = $"Score: {score}";
+    }
+    private void GoHome()
+    {
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+    }
+    private void StartQuiz()
+    {
+        ShowQuestion();
+        UpdateScoreUI();
     }
 }

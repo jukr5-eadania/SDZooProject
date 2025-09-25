@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public AnimalData selectedAnimal;
     public QuestionData currentQuestion;
 
+
     private void Awake()
     {
         if (Instance != null)
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
     public void SetAnimal(AnimalData animal)
     {
         selectedAnimal = animal;
-        PickRandomQuestion();
+        //PickRandomQuestion();
     }
 
     private void PickRandomQuestion()

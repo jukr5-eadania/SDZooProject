@@ -21,8 +21,6 @@ public class HawkGameManager : MonoBehaviour, IMinigame
     [Header("Save Settings")]
     [SerializeField] private SaveSO saveSO;
 
-
-
     void Start()
     {
         var root = HawkUIObject.rootVisualElement;

@@ -1,7 +1,0 @@
-VisualElement {}
-
-Label {
-    color: white;
-    font-size: 32px;
-    -unity-text-align: middle-center;
-}

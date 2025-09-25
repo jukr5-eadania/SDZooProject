@@ -28,21 +28,6 @@ public class BearFinder : MonoBehaviour, IPointerDownHandler
 
     private bool found = false;
 
-    //private void Start()
-    //{
-    //    if(hasBear && !found && objectData != null && animator != null)
-    //    {
-    //        AnimatorOverrideController overrideController = new AnimatorOverrideController(baseController);
-
-    //        overrideController["Hint_anim"] = objectData.hintAnimation;
-    //        overrideController["Idle_anim"] = objectData.idleAnimation;
-
-    //        animator.runtimeAnimatorController = overrideController;
-    //        StartCoroutine(PlayHintLoop());            
-    //    }
-
-    //}
-
     private IEnumerator PlayHintLoop()
     {
         while (!found)

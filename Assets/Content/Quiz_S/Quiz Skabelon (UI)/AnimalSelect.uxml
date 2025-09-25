@@ -1,5 +1,0 @@
-<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Content/Quiz_S/Quiz%20Skabelon%20(UI)/AnimalSelect.uss?fileID=7433441132597879392&amp;guid=5209630abebf65d4d96980b7186c455d&amp;type=3#AnimalSelect" />
-    <ui:Label text="Vælg et dyr" name="titleLabel" />
-    <ui:VisualElement name="animalButtonContainer" style="flex-grow: 1;" />
-</ui:UXML>

@@ -1,6 +1,0 @@
-<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Content/UI/BearGame/BearGameUI.uss?fileID=7433441132597879392&amp;guid=cbce2d25138520f469be67babf42d00e&amp;type=3#BearGameUI" />
-    <ui:VisualElement name="Panel" picking-mode="Ignore" style="flex-grow: 1;">
-        <ui:Label text="{found} fundet ud af {total}" name="scoreLabel" style="color: rgb(151, 255, 0); font-size: 65px;" />
-    </ui:VisualElement>
-</ui:UXML>
